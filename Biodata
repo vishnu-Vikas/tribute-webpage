@@ -1,0 +1,99 @@
+body{
+  background-color:cyan;
+  padding-bottom:20px;
+}
+<html>
+<style>
+h1{
+  text-align:center;
+}
+#A{
+  font-size:20px;
+  }
+  
+#title{
+  font-size:40px;
+}
+#description{
+  font-size:30px;
+}
+#survay-form{
+  backgroun-color:cyan;
+  padding:10px;
+  
+}
+#name-label{
+  font-size:20px;
+  padding:10px;
+}
+#age{
+   font-size:20px;
+  padding:10px;
+}
+#email{
+  text-align:default;
+  font-size:20px;
+}
+#dropdown{
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  border-radius:3px;
+}
+#sub{
+  width:60px;
+  height:40px;
+  background-color:blue;
+  border-radius:3px;
+}
+#res{
+    width:60px;
+  height:40px;
+  background-color:red;
+  border-radius:3px;
+}</style>
+<body>
+<h1 id="title">BIODATA</h1>
+<p id="description">Enter your details</p>
+<form action="" id="survay-form">
+  <div id="A">
+  <label id="name-label">Name:&nbsp;&nbsp;</label><input type="text" placeholder="Name"><br><br>
+  <label id="age">Age:&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" placeholder="Age"><br><br>
+  <label>Date Of Birth:</label><input type="date">
+  </div>
+  <br>
+  <p id="A">Gender</p>
+  <input type="radio" name="gender"value="m" checked><label>Male</label>
+  <input type="radio" name="gender" value="f"><label>Female</label>
+  <br><br>
+   <div>
+     <label>Address:</label><br><textarea 
+rows="10" cols="10"placeholder="enter your address"></textarea>
+     <br><br>
+  <label id="A">Country</label>
+  <select id="dropdown">
+    <option vlaue:"Country">Country</option>
+    <option value:"India">India</option>
+    <option value:"USA">USA</option>
+    <option value:"China">China</option></select>
+     <br>
+     <br>
+  </div>
+  <div id="A">
+    <H4>Hobbies</H4>
+    <input type="checkbox"><label>Playing</label>
+    <input type="checkbox">
+    <label>Reading</label>
+    <input type="checkbox">
+    <label>Watching T.V</label></div>
+
+  <br><br>
+  <label id="A">E-mail:</label><input type="text" placeholder="Enter your e-mail..">
+  <br><br>
+  <input type="submit" id="sub">
+   &nbsp;&nbsp;&nbsp;
+    <input type="reset" id="res">
+    
+  </body>
+  </html>
